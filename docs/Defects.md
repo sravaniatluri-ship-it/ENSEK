@@ -1,6 +1,6 @@
 # ?? ENSEK API Defect Report
 
-## 1. Buy Endpoint
+## 1. Buy Endpoint 1
 
 ### DEFECT-001: Missing Energy Type Name
 **Description:**  
@@ -63,12 +63,12 @@ Order names and quantities differ, compromising data reliability.
 
 ### DEFECT-009: Date Parsing Issue Causing Failure on Specific Record
 **Description:** 
-Root cause appears to be a date parsing issue — the 5th record uses a single-digit day (“7 Feb”) which fails the `TryParseExact("dd MMM")` format expectation.
+Root cause appears to be a date parsing issue ï¿½ the 5th record uses a single-digit day (ï¿½7 Febï¿½) which fails the `TryParseExact("dd MMM")` format expectation.
 
 
 ## 5. DELETE /ENSEK/orders/{orderId}
 
-### DEFECT-009: Unable to Delete Order – 500 Internal Server Error
+### DEFECT-009: Unable to Delete Order ï¿½ 500 Internal Server Error
 **ID:** API-DEL-001  
 **Severity:** ?? High  
 **Priority:** P1  
